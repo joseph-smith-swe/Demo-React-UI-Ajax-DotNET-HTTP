@@ -1,0 +1,183 @@
+.main-container {
+  background-color: #681a639c;
+  height: 100%;
+  width: 100%;
+}
+
+.table-main-container {
+  background: -webkit-linear-gradient(
+    top,
+    #681a639c 0%,
+    #3c1c65a5 62%,
+    #312060ba 100%
+  );
+}
+
+.parent-table-container {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 13px;
+}
+
+.page-header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.active-prev-btn {
+  background-color: #a64ac3 !important;
+  border-color: #a64ac3 !important;
+  color: white;
+}
+
+.reset-active-btn {
+  background-color: #6a4ac3;
+  border-color: #6a4ac3;
+  color: white;
+}
+.active-next-btn {
+  background-color: #a64ac3;
+  border-color: #a64ac3;
+  color: white;
+}
+
+.undo-btn {
+  background-color: #6a4ac3;
+  border-color: #6a4ac3;
+  color: white;
+}
+.trash-btn {
+  background-color: #a64ac3;
+  border-color: #a64ac3;
+  color: white;
+}
+
+.show-active-btn {
+  background-color: #a64ac3;
+  border-color: #a64ac3;
+  color: white;
+}
+
+.show-deleted-btn {
+  background-color: #a64ac3;
+  border-color: #a64ac3;
+  color: white;
+}
+
+.reset-search-btn {
+  background-color: #6a4ac3;
+  border-color: #6a4ac3;
+  color: white;
+}
+
+.search-by-name-prev-page-btn {
+  height: 54px;
+  background-color: #6a4ac3;
+  border-color: #6a4ac3;
+  color: white;
+}
+
+.search-by-name-next-page-btn {
+  height: 54px;
+  background-color: #6a4ac3;
+  border-color: #6a4ac3;
+  color: white;
+}
+
+.fixed-header-row {
+  color: white;
+}
+.actual-table {
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.url-font {
+  color: white;
+}
+
+.table-main-container {
+  margin: auto;
+  max-height: 600px;
+  outline-style: solid black;
+}
+
+.container-for-buttons {
+  display: flex;
+}
+.spacer-1 {
+  margin-right: 5px;
+}
+.spacer-2 {
+  margin-left: 5px;
+}
+.parent-table-container {
+  margin-top: 5px;
+}
+
+.search-control {
+  width: 206.63px;
+  height: 54px;
+}
+.table-controls-container {
+  display: flex;
+}
+.parent-comp-buttons {
+  margin-right: 5px;
+}
+.search-group {
+  margin-left: 5px;
+}
+.show-all-active-files-btn {
+  margin-right: 5px;
+}
+
+.show-all-deleted-files-btn {
+  margin-left: 5px;
+}
+
+.dashboard-page-nav-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.table-controls-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.view-toggle-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.prev-btn {
+  margin-right: 5px;
+}
+.next-btn {
+  margin-left: 5px;
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+}
+
+.reset-search-btn {
+  height: 54px;
+}
+
+.toast {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+}
